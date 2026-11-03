@@ -1,6 +1,4 @@
-
 import java.util.Scanner;
-
 /**
  * Ejercicio 04: "Generar un algoritmo que permita calcular y mostrar el valor 
  * de la planilla de teléfono de un casa. Se debe ingresar el costo por minutos,
@@ -8,9 +6,10 @@ import java.util.Scanner;
  * @author Kenny Gualan
  * @version 1.0
  */
-
-public class Ejercicio04 {
-    public static void main(String[] args) {
+public class Ejercicio04 
+{
+    public static void main(String[] args) 
+    {
         Scanner tcl = new Scanner(System.in);
         double Costominuto, Minutocons, planilla;
         System.out.println("Planilla de Teléfono");
@@ -22,7 +21,6 @@ public class Ejercicio04 {
         System.out.println("El valor de la planilla es: "+ planilla);
     }
 }
-
 /***
  * EVIDENCIA DEL RUN:
 Planilla de Tel�fono

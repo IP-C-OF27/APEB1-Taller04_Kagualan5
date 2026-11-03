@@ -5,9 +5,10 @@ import java.util.Scanner;
  * @author Kenny Gualan
  * @version 1.0
  */
-
-public class Ejercicio01 {
-    public static void main(String[] args) {
+public class Ejercicio01 
+{
+    public static void main(String[] args) 
+    {
          Scanner tcl = new Scanner(System.in);
          double base, altu, area;
          System.out.print("Deme el valor de base: ");
